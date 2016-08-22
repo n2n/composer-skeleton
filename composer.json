@@ -1,0 +1,26 @@
+{
+    "name": "zendframework/composer-skeleton",
+    "description": "n2n Skeleton",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.0",
+        "n2n/n2n": "master-dev",
+        "n2n/n2n-composer-skeleton-installer": "master-dev"
+    },
+    "extra": {
+        "n2n/n2n-composer-skeleton-installer": {
+            "optional": {
+                "n2n/rocket": "master-dev",
+                "n2n/page": "master-dev"
+            }
+        }
+    },
+    "repositories": [
+    	{
+	    	"type": "vcs",
+	    	"url": "file:///D:/workspaces/htdocs/php7-hnm-zend/n2n-composer-skeleton-installer"
+	    }
+    ]
+}
