@@ -1,5 +1,5 @@
 {
-    "name": "zendframework/composer-skeleton",
+    "name": "n2n/composer-skeleton",
     "description": "n2n Skeleton",
     "type": "project",
     "minimum-stability": "dev",
