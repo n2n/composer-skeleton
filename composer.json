@@ -16,11 +16,5 @@
                 "n2n/page": "master-dev"
             }
         }
-    },
-    "repositories": [
-    	{
-	    	"type": "vcs",
-	    	"url": "file:///D:/workspaces/htdocs/php7-hnm-zend/n2n-composer-skeleton-installer"
-	    }
-    ]
+    }
 }
