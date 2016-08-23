@@ -13,7 +13,6 @@
         "n2n/n2n-impl-persistence-orm": "master-dev",
         "n2n/n2n-impl-web-dispatch": "master-dev",
         "n2n/n2n-impl-web-ui": "master-dev",
-        "n2n/n2n-impl-web-dispatch": "master-dev",
         "n2n/n2n-composer-skeleton-installer": "master-dev"
     },
     "extra": {
