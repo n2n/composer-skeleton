@@ -5,7 +5,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.0",
+        "php": ">=7.0",
         "n2n/n2n": "7.1.x-dev",
         "n2n/n2n-batch": "7.1.x-dev",
         "n2n/n2n-context": "7.1.x-dev",
