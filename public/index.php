@@ -13,7 +13,7 @@ if (isset($_SERVER['N2N_STAGE'])) {
 // require __DIR__ . '/../vendor/autoload.php';
 require_once '../vendor/n2n/n2n/src/app/n2n/core/TypeLoader.php';
 
-TypeLoader::register(true,
+n2n\core\TypeLoader::register(true,
 		require __DIR__ . '/../vendor/composer/autoload_psr4.php',
 		require __DIR__ . '/../vendor/composer/autoload_classmap.php');
 
