@@ -9,6 +9,7 @@
         "n2n/n2n": "master-dev",
         "n2n/n2n-batch": "master-dev",
         "n2n/n2n-context": "master-dev",
+        "n2n/n2n-mail": "master-dev",
         "n2n/n2n-impl-persistence-meta": "master-dev",
         "n2n/n2n-impl-persistence-orm": "master-dev",
         "n2n/n2n-impl-web-dispatch": "master-dev",
