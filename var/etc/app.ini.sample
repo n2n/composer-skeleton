@@ -11,7 +11,7 @@
 ; application.batch_listeners[] = "example\controller\ExampleBatchListener"
 
 
-[http]
+[web]
 
 ; response.caching_enabled = true
 ; response.browser_caching_enabled = true
