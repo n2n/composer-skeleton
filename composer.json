@@ -2,7 +2,7 @@
     "name": "n2n/n2n-skeleton",
     "description": "n2n skeleton application installable by Composer",
     "type": "project",
-    "minimum-stability": "dev",
+    "minimum-stability": "dev", 
     "prefer-stable": true,
     "require": {
         "php": ">=7.0",
