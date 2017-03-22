@@ -22,7 +22,7 @@
             	"n2n/rocket": "master-dev",
                 "n2n/page": "master-dev",
                 "n2n/n2nutil-bootstrap": "master-dev",
-                "hnm/n2n-utils": "master-dev"
+                "hnm/ch-hnm-utils": "master-dev"
             }
         }
     }
