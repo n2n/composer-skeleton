@@ -23,7 +23,7 @@
 ; view.type.example = "example\ui\viewtypes\ExampleView"
 
 ; dispatch.target_crypt_enabled = true
-; dispatch.target_crypt_algorithm = "rijndael-256"
+; dispatch.target_crypt_algorithm = "AES-256-CTR"
 
 ; locale_aliases[de_CH] = "de"
 
