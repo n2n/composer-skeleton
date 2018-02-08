@@ -17,6 +17,7 @@
 ; response.browser_caching_enabled = true
 ; response.send_etag = true
 ; response.send_not_modified = true
+; response.server_push = true
 
 ; view.caching_enabled = true
 
