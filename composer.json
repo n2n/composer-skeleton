@@ -1,32 +1,32 @@
 {
-	"name" : "n2n/n2n-skeleton",
-	"description" : "n2n skeleton application installable by Composer",
-	"type" : "project",
-	"minimum-stability" : "dev",
-	"prefer-stable" : true,
-	"require" : {
-		"php" : ">=7.0",
-		"n2n/n2n" : "7.2.x-dev",
-		"n2n/n2n-batch" : "7.2.x-dev",
-		"n2n/n2n-context" : "7.2.x-dev",
-		"n2n/n2n-mail" : "7.2.x-dev",
-		"n2n/n2n-impl-persistence-meta" : "7.2.x-dev",
-		"n2n/n2n-impl-persistence-orm" : "7.2.x-dev",
-		"n2n/n2n-impl-web-dispatch" : "7.2.x-dev",
-		"n2n/n2n-impl-web-ui" : "7.2.x-dev",
-		"n2n/n2n-composer-skeleton-installer" : "7.1.x-dev"
-	},
-	"require-dev": {
-		"n2n/hangar" : "7.2.x-dev"
-	},
-	"extra" : {
-		"n2n/n2n-composer-skeleton-installer" : {
-			"optional" : {
-				"n2n/rocket" : "2.0.x-dev",
-				"n2n/page" : "1.4.x-dev",
-				"n2n/n2nutil-bootstrap" : "4.0.x-dev",
-				"hnm/ch-hnm-util" : "7.2.x-dev"
-			}
-		}
-	}
+    "description": "n2n skeleton application installable by Composer",
+    "extra": {
+        "n2n/n2n-composer-skeleton-installer": {
+            "optional": {
+                "hnm/ch-hnm-util": "^7.2.0-beta",
+                "n2n/n2nutil-bootstrap": "^4.0.0",
+                "n2n/page": "^1.4.0-beta",
+                "n2n/rocket": "^2.0.0-alpha"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "name": "n2n/n2n-skeleton",
+    "prefer-stable": true,
+    "require": {
+        "n2n/n2n": "^7.2.0-beta.2",
+        "n2n/n2n-batch": "^7.2.0-beta.2",
+        "n2n/n2n-composer-skeleton-installer": "~7.1.0",
+        "n2n/n2n-context": "^7.2.0-beta.2",
+        "n2n/n2n-impl-persistence-meta": "^7.2.0-beta.2",
+        "n2n/n2n-impl-persistence-orm": "^7.2.0-beta.2",
+        "n2n/n2n-impl-web-dispatch": "^7.2.0-beta.2",
+        "n2n/n2n-impl-web-ui": "^7.2.0-beta.2",
+        "n2n/n2n-mail": "^7.2.0-beta.2",
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "n2n/hangar": "7.2.x-dev"
+    },
+    "type": "project"
 }
