@@ -6,26 +6,26 @@
 	"prefer-stable" : true,
 	"require" : {
 		"php" : ">=7.0",
-		"n2n/n2n" : "7.2.x-dev",
-		"n2n/n2n-batch" : "7.2.x-dev",
-		"n2n/n2n-context" : "7.2.x-dev",
-		"n2n/n2n-mail" : "7.2.x-dev",
-		"n2n/n2n-impl-persistence-meta" : "7.2.x-dev",
-		"n2n/n2n-impl-persistence-orm" : "7.2.x-dev",
-		"n2n/n2n-impl-web-dispatch" : "7.2.x-dev",
-		"n2n/n2n-impl-web-ui" : "7.2.x-dev",
-		"n2n/n2n-composer-skeleton-installer" : "7.1.x-dev"
+		"n2n/n2n" : "^7.2.33",
+		"n2n/n2n-batch" : "^7.2.33",
+		"n2n/n2n-context" : "^7.2.33",
+		"n2n/n2n-mail" : "^7.2.33",
+		"n2n/n2n-impl-persistence-meta" : "^7.2.33",
+		"n2n/n2n-impl-persistence-orm" : "^7.2.33",
+		"n2n/n2n-impl-web-dispatch" : "^7.2.33",
+		"n2n/n2n-impl-web-ui" : "^7.2.33",
+		"n2n/n2n-composer-skeleton-installer" : "^7.1.1"
 	},
 	"require-dev": {
-		"n2n/hangar" : "7.2.x-dev"
+		"n2n/hangar" : "master-dev"
 	},
 	"extra" : {
 		"n2n/n2n-composer-skeleton-installer" : {
 			"optional" : {
-				"n2n/rocket" : "2.0.x-dev",
-				"n2n/page" : "1.5.x-dev",
-				"n2n/n2nutil-bootstrap" : "4.1.x-dev",
-				"hnm/ch-hnm-util" : "7.2.x-dev"
+				"n2n/rocket" : "^3.0.1",
+				"n2n/page" : "^1.0.6",
+				"n2n/n2nutil-bootstrap" : "^4.3.3",
+				"hnm/ch-hnm-util" : "^8.0.0"
 			}
 		}
 	}
