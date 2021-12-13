@@ -21,6 +21,7 @@
 ; response.default_headers[] = "Cache-Control: no-cache"
 
 ; view.caching_enabled = true
+
 ; view.type.example = "example\ui\viewtypes\ExampleView"
 
 ; dispatch.target_crypt_enabled = true
